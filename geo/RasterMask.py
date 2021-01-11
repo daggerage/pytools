@@ -1,7 +1,4 @@
-from osgeo import gdal
-import scripts.GdalBaseOperations as gb
-import sys
-import cmath
+import geo.GdalBaseOperations as gb
 
 thres = [
     [280, 360],

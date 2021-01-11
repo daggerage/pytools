@@ -1,3 +1,8 @@
+"""
+输入栅格进行分片，对每片的NoData栅格计数
+用于pargo文章对比不同划分方式
+"""
+
 from osgeo import gdal
 import numpy as np
 import sys

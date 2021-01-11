@@ -1,4 +1,8 @@
-import scripts.GdalBaseOperations as gb
+"""
+对FCM生成的多个隶属度图层进行统计，出一个最后分类结果
+"""
+
+import geo.GdalBaseOperations as gb
 import numpy as np
 
 

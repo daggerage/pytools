@@ -1,8 +1,7 @@
 from typing import List
 
-import scripts.GdalBaseOperations as gb
+import geo.GdalBaseOperations as gb
 import os.path
-import numpy as np
 
 
 class SegmentalSum(gb.RasterOperation):
