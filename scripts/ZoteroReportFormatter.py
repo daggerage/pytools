@@ -114,7 +114,7 @@ if __name__ == '__main__':
                ['标题', '日期', '作者', '笔记']))
 
     html = ''
-    with open('../text/ZoteroReport.html', 'r', encoding='utf8') as f:
+    with open('../text/Zotero 报告.html', 'r', encoding='utf8') as f:
         html = f.read()
 
     soup = BeautifulSoup(html, features='lxml')
